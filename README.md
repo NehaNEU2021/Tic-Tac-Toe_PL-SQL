@@ -242,6 +242,20 @@ exec Game_result('Player_1', 7,'X');
 
 --Test_case_1
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 player_1 wins
 
 exec Game_result_reset;
@@ -252,6 +266,19 @@ exec Game_result('Player_2', 2,'O');
 exec Game_result('Player_1', 1,'X');
 
 ---Test_case_2
+
+
+
+
+
+
+
+
+
+
+
+
+
 exec Game_result_reset;
 exec Game_result('Player_1', 5,'X');
 exec Game_result('Player_2', 3,'O');
