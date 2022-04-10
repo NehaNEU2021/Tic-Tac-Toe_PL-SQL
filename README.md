@@ -25,8 +25,8 @@ as
 
     game_will_continue varchar(40);
     game_draw varchar(40);
-
-
+    
+--- Start
  
 BEGIN
     game_will_continue:='Yes';
