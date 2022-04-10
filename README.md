@@ -31,8 +31,6 @@ as
 BEGIN
     game_will_continue:='Yes';
     game_draw:='No';
-    
-    
     if (player_place=1)
     THEN
         select column1 into place_no_value from table_AA where Place='rowno1';
