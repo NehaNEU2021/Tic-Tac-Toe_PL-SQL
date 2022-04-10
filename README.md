@@ -28,7 +28,17 @@ as
     
 --- Start
  
+
+
+
+
+
+
 BEGIN
+
+
+
+
     game_will_continue:='Yes';
     game_draw:='No';
     if (player_place=1)
