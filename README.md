@@ -128,6 +128,7 @@ BEGIN
     select column3 into place_9 from table_AA  where Place ='rowno3';
 
 --Horizontal win case   
+    
     if(place_1 = place_2 and place_1 = place_3 and place_1!='_')
     THEN
         dbms_output.put_line(player_id || ' You Win');
@@ -145,8 +146,13 @@ BEGIN
         game_will_continue:='No';
  
  
- --- Vertical win case
+
+ 
+ 
     END IF;
+    
+    
+     --- Vertical win case
     if(place_1 = place_4 and place_1 = place_7 and place_1!='_')
     THEN
         dbms_output.put_line(player_id || ' You Win');
@@ -164,8 +170,12 @@ BEGIN
          dbms_output.put_line(player_id || ' You Win');
         game_will_continue:='No';
 
- -- diagonal win case
+
+ 
+ 
     END IF;
+    
+     -- diagonal win case
     if(place_1 = place_5 and place_5 = place_9 and place_1!='_')
     THEN
         dbms_output.put_line(player_id || ' You Win');
